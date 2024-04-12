@@ -1,4 +1,4 @@
-package org.svgproject;
+package org.umcspro.svgproject;
 
 import java.io.FileWriter;
 import java.io.IOException;

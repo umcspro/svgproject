@@ -1,4 +1,4 @@
-package org.svgproject;
+package org.umcspro.svgproject;
 public class Segment {
     private Vec2 startVec2;
     private Vec2 endVec2;

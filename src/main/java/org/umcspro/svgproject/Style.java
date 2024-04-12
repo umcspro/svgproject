@@ -1,4 +1,4 @@
-package org.svgproject;
+package org.umcspro.svgproject;
 import java.util.Locale;
 public class Style {
     public final String fillColor;

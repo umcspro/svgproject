@@ -1,4 +1,4 @@
-package org.svgproject;
+package org.umcspro.svgproject;
 
 public class Main2 {
     public static void main(String[] args) {

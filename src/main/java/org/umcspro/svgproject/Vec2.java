@@ -1,4 +1,4 @@
-package org.svgproject;
+package org.umcspro.svgproject;
 
 public class Vec2 {
     public final double x;

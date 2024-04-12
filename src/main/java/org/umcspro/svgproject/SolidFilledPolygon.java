@@ -1,4 +1,4 @@
-package org.svgproject;
+package org.umcspro.svgproject;
 public class SolidFilledPolygon extends Polygon {
     private String fillColour;
     @Override

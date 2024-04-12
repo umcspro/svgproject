@@ -1,4 +1,4 @@
-package org.svgproject;
+package org.umcspro.svgproject;
 public class ShapeDecorator implements Shape {
     protected Shape decoratedShape;
     public ShapeDecorator(Shape decoratedShape) {

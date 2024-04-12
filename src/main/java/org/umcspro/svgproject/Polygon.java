@@ -1,5 +1,5 @@
-package org.svgproject;
-import java.util.Arrays;
+package org.umcspro.svgproject;
+
 public class Polygon implements Shape{
     private Vec2[] points;
     private Style style;

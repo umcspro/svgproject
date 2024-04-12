@@ -1,4 +1,4 @@
-package org.svgproject;
+package org.umcspro.svgproject;
 public interface Shape {
     String toSvg(String param);
 }
