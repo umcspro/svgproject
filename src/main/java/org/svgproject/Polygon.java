@@ -1,4 +1,4 @@
-package org.example.ooplab3;
+package org.svgproject;
 import java.util.Arrays;
 public class Polygon implements Shape{
     private Vec2[] points;
@@ -23,7 +23,6 @@ public class Polygon implements Shape{
         double cy = (diagonal.getStartPoint().getY() + diagonal.getEndPoint().getY()) / 2;
         Vec2 center = new Vec2(cx, cy);
         Segment[] perpendiculars = Segment.perpendicularSegments(diagonal,center,diagonal.length()/2);
-        System.out.println("przekątne: "+Arrays.toString(perpendiculars));
         // Wyznaczenie wierzchołków kwadratu
         Vec2[] vec2s = new Vec2[4];
         vec2s[0] = diagonal.getStartPoint();

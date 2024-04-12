@@ -1,4 +1,4 @@
-package org.example.ooplab3;
+package org.svgproject;
 public class ShapeDecorator implements Shape {
     protected Shape decoratedShape;
     public ShapeDecorator(Shape decoratedShape) {

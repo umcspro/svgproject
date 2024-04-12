@@ -1,4 +1,4 @@
-package org.example.ooplab3;
+package org.svgproject;
 import java.util.Locale;
 public class Style {
     public final String fillColor;

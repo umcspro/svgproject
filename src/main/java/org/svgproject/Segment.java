@@ -1,4 +1,4 @@
-package org.example.ooplab3;
+package org.svgproject;
 public class Segment {
     private Vec2 startVec2;
     private Vec2 endVec2;

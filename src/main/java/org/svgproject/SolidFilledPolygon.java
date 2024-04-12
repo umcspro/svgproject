@@ -1,4 +1,4 @@
-package org.example.ooplab3;
+package org.svgproject;
 public class SolidFilledPolygon extends Polygon {
     private String fillColour;
     @Override

@@ -1,4 +1,7 @@
-package org.example.ooplab3;
+package org.svgproject;
+
+import java.util.Locale;
+
 public class StrokeShapeDecorator extends ShapeDecorator {
     private String color;
     private double width;
@@ -9,7 +12,7 @@ public class StrokeShapeDecorator extends ShapeDecorator {
     }
     @Override
     public String toSvg(String parameters) {
-        String strokeStyle = String.format("stroke='%s' stroke-width='%f'", color, width);
+        String strokeStyle = String.format(Locale.ENGLISH,"stroke='%s' stroke-width='%f'", color, width);
         if (!parameters.isEmpty()) {
             parameters += " ";
         }

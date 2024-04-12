@@ -1,4 +1,4 @@
-package org.example.ooplab3;
+package org.svgproject;
 
 public class Vec2 {
     public final double x;
